@@ -7,7 +7,7 @@ Auteur: toi
 Usage: pédagogique uniquement
 
 Lance:
-    python trhacknon_face_demo.py
+    python main.py
 """
 
 import os
