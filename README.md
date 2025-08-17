@@ -1,36 +1,41 @@
 # tryh4ckreco
-# Face Pattern Generator - Anti-Reco Demo (by trhacknon)
+# 🕶️ Face Pattern Generator - Anti-Reco Demo (by trhacknon)
 
-Un outil pédagogique en Python permettant de générer et appliquer des motifs perturbateurs sur un visage, afin de démontrer la fragilité des systèmes de reconnaissance faciale basiques (par ex. HaarCascade d’OpenCV).
+Un outil pédagogique en **Python** permettant de générer et appliquer des **motifs perturbateurs** sur un visage, afin de démontrer la fragilité des systèmes de **reconnaissance faciale basiques** (par ex. HaarCascade d’OpenCV).
 
-NOTE IMPORTANTE : Ce projet est uniquement destiné à un usage éducatif et académique.  
-Il ne doit pas être utilisé dans des contextes réels ou pour contourner la sécurité.
+> ⚠️ **Note importante :** Ce projet est uniquement destiné à un usage **éducatif** et **académique**.  
+> Il ne doit pas être utilisé dans des contextes réels ou pour contourner la sécurité.
 
-------------------------------------------------------------
+---
 
-Fonctionnalités
-- Détection faciale avant / après perturbation (OpenCV HaarCascade).
-- Génération de motifs variés (damier, rayures, bruit, motifs fluo).
-- Application automatique du motif sur une zone du visage (front, bouche, lunettes).
-- Comparaison du nombre de visages détectés avant/après perturbation.
-- Interface graphique (Tkinter) simple et stylisée, ambiance hacker-fluo trhacknon.
-- Sauvegarde automatique des résultats (prof_original.png et prof_modifie.png).
+## ✨ Fonctionnalités
 
-------------------------------------------------------------
+- 🔍 Détection faciale avant / après perturbation (OpenCV HaarCascade).  
+- 🎨 Génération de motifs variés (damier, rayures, bruit, motifs fluo).  
+- 🖼️ Application automatique du motif sur une zone du visage (front, bouche, lunettes).  
+- 📊 Comparaison du nombre de visages détectés avant/après perturbation.  
+- 🖥️ Interface graphique (Tkinter) simple et stylisée, ambiance **hacker-fluo trhacknon**.  
+- 💾 Sauvegarde automatique des résultats (`prof_original.png` et `prof_modifie.png`).  
 
-Installation
+---
+
+## 📦 Installation
 
 Clone le projet et installe les dépendances :
 
+```bash
 git clone https://github.com/ton-projet/facerec-pattern.git
 cd facerec-pattern
 pip install -r requirements.txt
+```
 
 Contenu du requirements.txt :
 
+```bash
 opencv-python
 numpy
 Pillow
+```
 
 ------------------------------------------------------------
 
@@ -39,7 +44,9 @@ Utilisation
 Mode script (CLI)
 Exécuter simplement le script :
 
+```bash
 python main.py
+```
 
 Le programme :
 1. Charge une image (prof.jpg par défaut).
