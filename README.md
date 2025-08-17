@@ -24,8 +24,8 @@ Un outil pédagogique en **Python** permettant de générer et appliquer des **m
 Clone le projet et installe les dépendances :
 
 ```bash
-git clone https://github.com/ton-projet/facerec-pattern.git
-cd facerec-pattern
+git clone https://github.com/trh4ckn0n/tryh4ckreco.git
+cd tryh4ckreco
 pip install -r requirements.txt
 ```
 
