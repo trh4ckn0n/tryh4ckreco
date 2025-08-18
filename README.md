@@ -39,6 +39,8 @@ Pillow
 
 ------------------------------------------------------------
 
+![Description de l'image](https://g.top4top.io/p_3516ug76v1.jpeg)
+
 Utilisation
 
 Mode script (CLI)
